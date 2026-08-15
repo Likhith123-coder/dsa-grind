@@ -5,7 +5,7 @@ class Solution {
         int maxWater = 0;
         int l = 0, r = n-1;
 
-        while(l < r){
+        while(l <= r){
 
                 int h = Math.min(height[l],height[r]);
                 int width = r - l;
